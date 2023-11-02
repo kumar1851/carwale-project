@@ -1,0 +1,494 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.bg-light {
+    background-color: none!important;
+}
+li.nav-item {
+    padding-left:50px;
+    font-weight: 600;
+    color: #484848;;
+}
+.navbar-brand img{
+    max-width: 150px;
+} 
+
+/* ----------------baner */
+.baner{
+    background-image: url("baner-1.jpg");
+      margin: 0 auto;
+      background-size: cover;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 530px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+.banerinput{
+    width: 50%;
+    margin: auto;
+    justify-content: center;
+}
+.baner_img img{
+    width: 26px;
+    margin: 0px 10px;
+}
+.banerinput h3{
+    text-align: center;
+    padding-top: 380px;
+    color: #fff;
+}
+.baner-exmpale{
+    display: flex;
+    justify-content:space-between;
+}
+span{
+    color: #fff;
+}
+span a{
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+span a:hover{
+   border-bottom: 1px solid #fff;
+   color: #fff;
+} 
+
+
+
+/*--------------------------- Featured Cars */
+.cars{
+    margin: 16px 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+ 
+}
+.row{
+    display: flex;
+    
+   
+}
+.col{
+    width: 33.3%;
+    flex: auto;
+   
+}
+.card_cars{
+    border: 1px solid rgb(235, 224, 224);
+    padding:20px;
+    margin-bottom: 20px;
+}
+.para{
+    margin: 0px;
+    font-size: 13px;
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif;
+    
+}
+.para-2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #484848;
+}
+
+.headings{
+    color: #00afa0;
+     padding:20px 0px 10px 0px;
+    border-bottom:4px solid  #00afa0;
+    width: 95px;
+}
+.button{
+    padding:6px 10px;
+    margin-top: 8px;
+    border: 1px solid #00afa0;;
+    font-size: 13px;
+    font-weight: 700;
+    color: #00afa0;
+}
+.all{
+    color: #aaa;
+    font-size: 14px;
+}
+.Fronx{
+    font-size: 16px;
+    font-weight: 500;
+    color: #484848;
+    padding-bottom: 6px;
+}
+.car-rs{
+    padding:0px 10px;
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+p{
+    padding: 6px 0px;
+}
+.car-rs1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #484848;
+}
+/* ---------------image-section */
+.image_section{
+    margin: 40px 0px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.model img{
+    max-width: 70%;
+    padding: 16px;
+    text-align: center;
+}
+.model{
+    text-align: center;
+}
+.para-1{
+    text-align: center;
+}
+.model{
+    border: 1px solid rgb(228, 226, 226);
+}
+
+
+/* --------------choice */
+.choice-card{
+    border: 1px solid  rgb(177, 171, 171);
+    padding:10px 10px;
+    border-radius:50px;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+.choice-card a{
+      text-align: center;
+      text-decoration: none;
+      color:  rgb(177, 171, 171);
+      font-size: 16px;
+      font-weight: 700;
+  
+} 
+
+span.maruti-rating {
+    border: 1px solid #bfbaba;
+    padding: 4px;
+    font-size: 13px;
+}
+.offer{
+    font-size: 13px;
+    font-weight: 700;
+    color: #0288d1;
+    padding: 6px 0px;
+
+}
+
+
+/* -------------------top car */
+.top_car{
+    padding: 10px;
+    border: 1px solid rgb(221, 214, 214);
+}
+.topcar_image{
+    padding-bottom: 16px;
+}
+
+/* -----------Used Cars In Chennai */
+.chennai{
+    margin: 40px 0px;
+}
+.topcar_image img{
+    max-width: 100%;
+}
+.chennai_card{
+    border: 1px solid  rgb(221, 214, 214);
+    padding: 20px;
+}
+p{
+    margin-bottom:0px !important;
+}
+.top_chenni{
+   color: #aaa;
+   font-weight: 600;
+}
+.chennai_span{
+    color: #000;
+    padding-right: 6px;
+}
+
+/* -------------Latest Car Updates */
+.latest_para{
+    font-size: 14px;
+    font-weight: 600;
+    color: #484848;
+    padding: 10px 0px;
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif;
+}
+.lates_row{
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+}
+.para-5{
+    font-size: 13px;
+    color:#484848;
+}
+p{
+    font-size: 14px;
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif !important;
+
+}
+.late{
+    color: #aaa;
+    font-size: 14px;
+    font-size: 600;
+}
+.latest_car img{
+    max-width: 100%;
+}
+
+
+
+/*-------------------------- Hyundai Exter --------------page-1 */
+.Exter_price{
+    margin: 30px 0px;
+   
+}
+.Hyundai{
+    padding-top: 30px;
+}
+
+span i{
+    color: #000;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.navbar-nav{
+    display: flex;
+}
+.main{
+    border: 1px solid rgb(223, 217, 217);
+}
+.version{
+    border: 1px solid rgb(223, 217, 217);
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.hyn_para{
+    font-size: 13px;
+    color: #6f6f6f;
+}
+.price-row{
+    display: flex;
+   
+}
+.hyun-title{
+    margin-bottom: 30px;
+}
+.price_image img{
+    width: 100%;
+}
+.cols{
+    padding: 0px 10px;
+}
+.color_card{
+    color: #484848;
+    
+}
+.laal{
+    width: 20px;
+  
+}
+.price_icon i{
+    padding-right: 20px;
+    font-size: 26px;
+    color: rgb(165, 163, 163);
+}
+.color_card i{
+    padding: 0px 10px;
+    color: rgb(165, 163, 163);
+    font-size: 20px;
+}
+.city{
+    display: flex;
+}
+.view{
+    font-size: 14px;
+    text-decoration: none;
+}
+.emi{
+    width: 50%;
+    margin: auto;
+}
+
+.gets{
+    padding-top: 20px;
+}
+span{
+    color: #6f6f6f;
+ 
+}
+.weeks{
+    padding-top:20px;
+    margin-bottom: 14px;
+}
+.offers{
+
+    padding:10px 70px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    background-color: #e53012;;
+}
+.card_prices{
+    display: flex;
+    padding: 10px 0px;
+}
+span i{
+   color: #00afa0;
+}
+.rs{
+    padding-top: 10px;
+}
+.star{
+    padding: 0px 30px;
+    color: #0288d1;
+    font-size: 12px;
+}
+.fuel{
+    padding: 4px 30px;
+    margin: 4px ;
+    border: 1px solid  #b6b6b6;;
+    text-decoration: none;
+    color: #6f6f6f;
+    font-weight: 600;
+}
+.fuel:hover{
+    color: #6f6f6f;
+}
+.road_price{
+    display: flex;
+    border: 1px solid rgb(228, 224, 224);
+    padding: 20px;
+   
+}
+.versions_price{
+    width: 20%;
+    margin: auto;
+   
+}
+.Petrol_cc{
+    font-size: 14px;
+}
+.verson_para-6{
+    padding-bottom:20px;
+    
+}
+.verson_para-6{
+    border-bottom:2px solid rgb(228, 224, 224); 
+}
+.anger{
+    text-decoration: none;
+    color:#535050
+}
+.peterol-cc{
+    text-decoration: none;
+    color: #5c5a5a;
+}
+.peterol-cc:hover{
+    color: #5c5a5a;
+}
+.view-get{
+    color: #0288d1;
+    font-size: 13px;
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif;
+}
+p{
+    font-family: LatoGoogle,Lato,LatoWeb,sans-serif;
+}
+.table{
+    background-color: #f9f9f9;
+    padding: 20px !important;
+}
+.ver_para{
+    color: #aaa;
+}
+.carblue{
+    margin-bottom: 10px;
+}
+.call_car{
+    border: 1px solid rgb(228, 224, 224); 
+    padding: 20px;
+    height: 100%;
+}
+.pros_icon i{
+    padding-right: 20px;
+    font-size: 20px;
+}
+td{
+    padding: 16px !important;
+}
+.car_icon i{
+    color: #000;
+    font-size: 6px;
+    padding-right: 10px;
+    font-weight: 700;
+}
+.how_para{
+    font-size: 14px;
+    color: #484848;
+}
+.pros{
+    background-color:  #f9f9f9;
+    margin: 30px 0px;
+}
+.Maruti-heading{
+    padding: 10px 0px;
+}
+.how_car{
+    padding: 20px 0px;
+}
+.make{
+    border: 1px solid rgb(216, 209, 209);
+    padding: 10px 20px;
+    margin: 10px 0px;
+}
+.exter-price{
+    margin-top: 60px;
+}
+.tab-cont{
+    display: none;
+}
+
+.tab-cont.active{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
